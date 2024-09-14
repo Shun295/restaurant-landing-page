@@ -1,0 +1,459 @@
+  body {
+      margin: auto;
+  }
+  /*Section 1 Styles: Modal and Logo */
+  
+  .section1 {
+      background-image: url("../assets/backgrounds/land4.jpg");
+      background-size: cover;
+      overflow: hidden;
+      margin-left: -10%;
+      margin-right: -10%;
+  }
+  /*Modal Section Styles */
+  
+  .menulines {
+      z-index: 2;
+      padding-left: 80px;
+  }
+  
+  .menulines .btn {
+      color:white;
+      background-color: transparent;
+      font-size: 30px;
+      padding: 0px;
+  }
+  
+  .fa {
+      /*horizontal lines icon*/
+      width: 20px;
+      height: 25px;
+  }
+  
+  .modal {
+      background-color: #ecdcf492;
+  }
+  
+  .fade.in {
+      opacity: 0.8;
+  }
+  
+  .modal-body,
+  .modal-title {
+      font-size: 20px;
+  }
+  
+  .modal-footer .btn {
+      font-size: 20px;
+      color: black;
+  }
+  /*Logo and Slogan Styles */
+  
+  .logo {
+      padding: 150px;
+      z-index: 1;
+      text-align: center;
+      color: rgb(246, 237, 237);
+      font-size: 23px;
+  }
+  
+  .boldSlogan {
+      font-weight: bold;
+  }
+  /*Section 2 files*/
+  
+  .section2 {
+      margin-left: -10%;
+      margin-right: -10%;
+      text-align: center;
+      color: #ffffff;
+      font-style: italic;
+      font-size: 20px;
+  }
+  
+  @media (min-width: 992px) {
+      .col-md-3 {
+          padding-left: 0;
+          padding-right: 0;
+      }
+  }
+  
+  .happyhour {
+      padding-top: 41px;
+      padding-bottom: 45px;
+      background-color: hwb(0 77% 17% / 0.886);
+      margin-bottom: 0;
+  }
+  
+  .partytime {
+      padding-top: 41px;
+      padding-bottom: 45px;
+      background-color:#6d587b;
+  }
+  
+  #breakfast {
+    position: relative;
+    background-image: url("https://img.freepik.com/free-photo/front-view-delicious-breakfast-with-blurred-background_23-2148230463.jpg");
+    background-size: cover;
+    padding: 100px;
+    z-index: 1;
+}
+
+#breakfast::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Light black overlay */
+    z-index: -1;
+}
+
+
+#lunch {
+    position: relative;
+    background-image: url("https://www.hotelierindia.com/wp-content/uploads/cloud/2023/04/27/Jowar-sabz-1024x1024.png");
+    background-size: cover;
+    padding: 100px;
+    z-index: 1;
+}
+
+#lunch::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Light black overlay */
+    z-index: -1;
+}
+
+  
+#dinner {
+    position: relative;
+    background-image: url("https://watermark.lovepik.com/photo/50088/5080.jpg_wh1200.jpg");
+    background-size: cover;
+    padding: 100px;
+    z-index: 1;
+}
+
+#dinner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Light black overlay */
+    z-index: -1;
+}
+
+  
+  #dinner:hover,
+  #lunch:hover,
+  #breakfast:hover {
+      color: #a289b3;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+      /* For IE8 and earlier */
+  }
+  /*Section 3 Styles*/
+  
+  .section3 {
+      padding: 50px;
+  }
+  
+  .fastFood {
+      padding: 20px;
+      margin-left: 25px;
+      text-align: left;
+  }
+  
+  .drinksInfoRow {
+      padding-top: 70px;
+  }
+  
+  .fastFood>h3,
+  .fastFood>h4,
+  .drinksInfo>h3,
+  .drinksInfo>h4 {
+      font-weight: bold;
+  }
+  
+  .fastFoodPhotos,
+  .drinksInfoPhotos {
+    padding: 20px;
+    border: 4px solid rgba(211, 211, 211, 0.44);
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.fastFoodPhotos img,
+.drinksInfoPhotos img {
+    width: 48%; /* Adjust width to ensure both images fit within the container */
+    height: 200px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the area without stretching */
+}
+
+.drinksInfoPhoto2 {
+    float: right;
+}
+
+
+  
+  button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: white;
+      color: #9422a5;
+      border: 1px solid #6e1987;
+  }
+  /*Section 4 Styles*/
+  
+  .section4 {
+      margin-left: -10%;
+      margin-right: -10%;
+      text-align: center;
+      background-image: url("../assets/backgrounds/foodsBg.jpg");
+      background-size: cover;
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 70px;
+  }
+  
+  .nav-list {
+      width: 80%;
+      margin: auto;
+  }
+  
+  .nav-tabs {
+      background-color: rgb(220, 210, 220);
+      font-size: 16px;
+  }
+  
+  .nav-tabs>.active {
+      background-color: white;
+      border-bottom: 0;
+  }
+  
+  .nav-tabs li {
+      border-right: 1px solid #777;
+      border-bottom: 1px solid #777;
+  }
+  
+  a {
+      color: black;
+  }
+  
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:hover,
+  .nav-tabs>li.active>a:focus {
+      color: #9029d4;
+  }
+  
+  .tab-content {
+      background-color: white;
+  }
+  
+  .carousel-inner {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Keep items in a single row */
+    gap:10px;/* Optional: Adds space between images */
+}
+
+.carousel-inner .item {
+    flex: 0 0 auto; /* Ensure images don't shrink or grow */
+    margin: 0; /* Removes any margin */
+    display: inline-block;
+}
+
+.carousel-inner img {
+    width: 310px; /* Set the width of the images */
+    height: 310px; /* Set the height of the images */
+    object-fit: cover; /* Ensure images are scaled properly */
+    border: 5px solid #9029d4; /* Add a border around images */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.carousel-control {
+    opacity: 1;
+    color: #553574;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+  /* Section 5 Styles*/
+  
+  .section5 {
+    margin: 50px auto;
+    border: 20px solid #edebeb;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px lightgrey;
+    padding: 20px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about {
+    flex: 1;
+    padding: 15px;
+    text-align: left;
+}
+.about p{
+    margin-bottom:20px;
+}
+.about>h4 {
+    color: #6f42a5;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.carousel-outer {
+    flex: 2;
+    padding: 15px;
+    text-align: center;
+}
+
+.carousel-outer .carousel-inner {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.carousel-outer .item {
+    text-align: center;
+}
+
+.carousel-outer img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 40%;
+}
+
+.carousel-control {
+    opacity: 1;
+    color: #553574;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+
+  /*Section 6 Styles*/
+  
+  .section6 {
+      text-align: center;
+      background-image: url("../assets/backgrounds/subscribe.jpg");
+      background-size: cover;
+      overflow: hidden;
+      color: white;
+      font-size: 20px;
+      margin-left: -10%;
+      margin-right: -10%;
+      padding: 80px;
+  }
+  
+  .form-group {
+      width: 50%;
+      margin: auto;
+  }
+  
+  .section6 p {
+      font-size: 30px;
+  }
+  
+  input[type=email] {
+      background-color: rgba(255, 255, 255, 0.4);
+      font-size: 16px;
+  }
+  
+  input[type=button] {
+      background-color:#6d587b;
+      color: white;
+      font-size: 16px;
+  }
+  
+  .form-control {
+      border: 10;
+      border-radius: 3px;
+  }
+  
+  .form-control::-moz-placeholder {
+      color:white;
+      opacity: 1;
+  }
+  
+  .form-control:-ms-input-placeholder {
+      color: white;
+  }
+  
+  .form-control::-webkit-input-placeholder {
+      color: rgb(229, 223, 223);
+  }
+  
+  #output {
+      font-size: 20px;
+  }
+  
+  .footer .fa {
+      margin-right: 15px;
+      margin-left: 15px;
+  }
+  /*Section 7 Styles: Footer*/
+  
+  .section7 {
+      background-color:#a476c2;
+      margin-left: -10%;
+      margin-right: -10%;
+  }
+  
+  .footer {
+      width: 30%;
+      margin: auto;
+      padding-top: 100px;
+      padding-bottom: 40px;
+      color: rgb(239, 234, 234);
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  .footer>img {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 40px;
+  }
+  
+  .footer p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .footer h5 {
+      font-size: 40px;
+  }
+  
+  #copyright {
+      font-size: 14px;
+  }
